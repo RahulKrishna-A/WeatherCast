@@ -12,7 +12,7 @@ const startcontrol = (()=>{
         const search_input=document.getElementById("start_form_input");
         e.preventDefault();
         const location_value = search_input.value;
-        document.location.replace("google.com");
+        document.location.replace("../weather.html");
         //function call
 
     }

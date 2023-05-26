@@ -1,0 +1,201 @@
+#main_container {
+    height: 100vh;
+    width: 100vw;
+    height: 100dvh;
+    width: 100dvw;
+    background-image: url("../assets/bd_main3.jpg");
+    background-size: cover;
+}
+
+#main_nav {
+    height: 5vh;
+    /*background-color: red;*/
+    z-index: 5;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+#main_content {
+    display: flex;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: row;
+
+}
+
+/*------------------------left----------------------------------------------------*/
+#main_container-left {
+    margin-top: 11vh;
+}
+
+#content_climate_status {
+    margin-bottom: 0.2rem;
+    margin-left: 2rem;
+    height: 4rem;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+
+#main_content-left {
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    height: 6rem;
+    margin-left: 2rem;
+
+
+    /*background-color: red;*/
+}
+
+#content_temp {
+    width: 12rem;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+#content_city_date {
+    margin-top: auto;
+    padding-left: 0.2rem;
+}
+
+#content_city {
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+
+#content_imgstatus {
+    padding-left: 0.2rem;
+    margin-left: 1rem;
+    margin-top: auto;
+}
+
+svg {
+    height: 50px;
+    width: 60px;
+}
+
+/*-------------------search----------*/
+#main_input-container {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    position: relative;
+    /*background-color: #3bfaf8;*/
+    height: 4rem;
+
+}
+
+#main_input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    height: 1.8rem;
+    color: white;
+    width: 15rem;
+    outline: none;
+    font-size: 1rem;
+    padding-right: 35px;
+}
+
+#main_input::placeholder {
+    color: rgba(255, 255, 255, 0.96);
+}
+
+#main_search-svg-container {
+    position: absolute;
+    left: 13rem;
+    /*background-color: red;*/
+    top: 0;
+}
+
+#main_search-svg {
+    height: 20px;
+    width: auto;
+    fill: white;
+}
+
+#main_search-svg-container:hover #main_search-svg {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#main_error-container {
+    margin-top: 0.5rem;
+}
+
+/*--------------------------------------Right---------------------------------------------------------*/
+#main_container-right {
+    margin-left: auto;
+    margin-top: 17vh;
+    margin-right: 2rem;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.main_right_svg svg {
+    fill: white;
+}
+
+.main_right-block {
+    display: flex;
+    gap: 1rem;
+    /*background-color: #3bfaf8;*/
+}
+
+.main_right_header {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.main-right_text p:nth-child(2) {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/*--------------------footer--------------------------*/
+
+#main_footer {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 8vh;
+    margin-bottom: 1rem;
+}
+
+#main_foot-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot_containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+#foot_head {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 3vh;
+    font-weight: bolder;
+    display: flex;
+    padding: 0.5rem;
+    /*border-bottom: 2px rgba(255, 255, 255, 0.26) solid;*/
+    margin-right: 2rem;
+}
+
+.foot_days-data{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
