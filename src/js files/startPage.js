@@ -1,3 +1,8 @@
+import {StartAsync} from "./API calls";
+import {weatherPage} from "./DOM selectors";
+import {subDays} from "date-fns";
+import {Getcity} from "./Page renders";
+
 const startcontrol = (()=>{
 
     const unhide =()=>{
@@ -6,15 +11,20 @@ const startcontrol = (()=>{
         search_submit.addEventListener("click",redirect);
         search_input.classList.remove("hide");
         search_submit.classList.remove("hide");
+
     }
 
     const redirect = (e) =>{
         const search_input=document.getElementById("start_form_input");
         e.preventDefault();
         const location_value = search_input.value;
-        document.location.replace("../weather.html");
-        //function call
+        Getcity(location_value);
 
+        weatherPage.intro_page.classList.add("hide");
+        weatherPage.weather_page.classList.remove("hide");
+
+        let date = new Date();
+        console.log(subDays(date,1))
     }
 
     return{

@@ -1,4 +1,7 @@
 const weatherPage = (() => {
+    //pages
+    const intro_page = document.getElementById("start_container");
+    const weather_page = document.getElementById("main_container")
 
     const climate_status = document.getElementById("content_climate_status");
     const content_temp = document.getElementById("content_temp");
@@ -24,7 +27,11 @@ const weatherPage = (() => {
     const day_four = document.querySelector(".foot_days-data.four");
 
     const day_five = document.querySelector(".foot_days-data.five");
+
+
     return {
+        intro_page,
+        weather_page,
         climate_status,
         content_temp,
         content_city,
