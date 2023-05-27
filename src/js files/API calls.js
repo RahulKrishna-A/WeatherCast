@@ -2,7 +2,7 @@ import {weatherPage} from "./DOM selectors";
 
 async function StartAsync(city) {
     try {
-        const url = `http://api.weatherapi.com/v1/current.json?key=8631408bbd50406cba0131620232505&q=${city}&aqi=no`;
+        const url = `https://api.weatherapi.com/v1/current.json?key=8631408bbd50406cba0131620232505&q=${city}&aqi=no`;
         const response = await fetch(url, {mode: "cors"});
         var response_json = await response.json();
 
@@ -35,7 +35,7 @@ function getcoord(json) {
 }
 
 async function previousdata(city, date) {
-    let url = `http://api.weatherapi.com/v1/history.json?key=8631408bbd50406cba0131620232505&q=${city}&dt=${date}`;
+    let url = `https://api.weatherapi.com/v1/history.json?key=8631408bbd50406cba0131620232505&q=${city}&dt=${date}`;
     const resp = await fetch(url, {mode: "cors"});
     const resp_json = await resp.json();
     const climate = await resp_json.forecast.forecastday[0].day.avgtemp_c;
