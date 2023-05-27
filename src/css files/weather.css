@@ -24,7 +24,6 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     flex-direction: row;
-
 }
 
 /*------------------------left----------------------------------------------------*/
@@ -198,5 +197,208 @@ svg {
     font-size: 2rem;
     font-weight: 600;
 }
+
+/*----------------------------------------------------------Mobile----------------------------------------------*/
+@media screen and (max-width: 650px){
+    #main_container {
+        height: 100vh;
+        width: 100vw;
+        /*height: 100dvh;*/
+        /*width: 100dvw;*/
+        background-image: url("../assets/bd_main3.jpg");
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    #main_nav {
+        height: 3rem;
+        z-index: 5;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    #main_content {
+        display: flex;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        flex-direction: column;
+    }
+
+
+    /*    ------------left-----------------------*/
+    #main_container-left {
+        margin-top: 4rem;
+    }
+
+    #content_climate_status {
+        margin-bottom: 0.2rem;
+        margin-left: 1rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    #main_content-left {
+        display: flex;
+        flex-direction: row;
+        width: 70vw;
+        /*background-color: black;*/
+        height: 4rem;
+        margin-left: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #content_temp {
+        width: 7rem;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    #content_city_date {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 0.6rem;
+        width: 6rem;
+        /*background-color: #3bfaf8;*/
+
+    }
+    #content_city {
+        font-size: 1.3rem;
+        font-weight: 550;
+    }
+
+    #content_imgstatus {
+        padding-left: 0.2rem;
+        margin-left: 1rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    svg {
+        height: 40px;
+        width:50px;
+    }
+
+    /*-------------------search----------*/
+    #main_input-container {
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        position: relative;
+        /*background-color: #3bfaf8;*/
+        height: 2.5rem;
+
+    }
+
+    #main_input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px solid white;
+        height: 1.5rem;
+        color: white;
+        width: 15rem;
+        outline: none;
+        font-size: 0.8rem;
+        padding-right: 35px;
+    }
+
+    #main_input::placeholder {
+        color: rgba(255, 255, 255, 0.96);
+    }
+
+    #main_search-svg-container {
+        position: absolute;
+        left: 13rem;
+        /*background-color: red;*/
+        top: 0;
+    }
+
+    #main_search-svg {
+        height: 18px;
+        width: auto;
+        fill: white;
+    }
+
+    #main_search-svg-container:hover #main_search-svg {
+        scale: 1.1;
+        cursor: pointer;
+    }
+
+    #main_error-container {
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+    /*--------------------------------------Right---------------------------------------------------------*/
+    #main_container-right {
+        margin-left: 1rem;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .main_right_svg svg {
+        fill: white;
+        height: 30px;
+        width: auto;
+    }
+
+    .main_right-block {
+        display: flex;
+        gap: 0.8rem;
+        /*background-color: #3bfaf8;*/
+    }
+
+    .main_right_header {
+        font-size: 0.8rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .main-right_text p:nth-child(2) {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    /*--------------------footer--------------------------*/
+
+    #main_footer {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin: 4vh 2rem 1rem;
+    }
+
+    #main_foot-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .foot_containers {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #foot_head {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: bolder;
+        display: flex;
+
+        /*border-bottom: 2px rgba(255, 255, 255, 0.26) solid;*/
+        margin-right: 2rem;
+    }
+
+    .foot_days-data {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+}
+
 
 
