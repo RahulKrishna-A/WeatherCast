@@ -182,6 +182,7 @@ svg {
     align-items: center;
     gap: 1rem;
 }
+
 #foot_head {
     margin-left: 2rem;
     font-size: 1.5rem;
@@ -193,7 +194,7 @@ svg {
     margin-right: 2rem;
 }
 
-.foot_days-data{
+.foot_days-data {
     font-size: 2rem;
     font-weight: 600;
 }

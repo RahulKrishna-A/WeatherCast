@@ -1,4 +1,4 @@
-#start_container{
+#start_container {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -6,11 +6,11 @@
     background-size: cover;
 }
 
-#start_sidetext{
+#start_sidetext {
     position: absolute;
     color: rgba(255, 255, 255, 0.25);
     font-family: 'Oswald', sans-serif;
-    top:12rem;
+    top: 12rem;
     width: 35vh;
     left: -12vh;
     font-size: 1.5rem;
@@ -20,7 +20,7 @@
 
 /*--------Nav----------*/
 
-#start_nav{
+#start_nav {
     height: 5vh;
     /*background-color: red;*/
     z-index: 5;
@@ -32,27 +32,28 @@
     padding: 2rem;
 }
 
-#start_hero{
-    margin-left:6rem;
+#start_hero {
+    margin-left: 6rem;
     margin-top: 2rem;
     width: 25vw;
     /*background-color: red;*/
 }
 
-#start_hero__h1{
+#start_hero__h1 {
     color: rgba(255, 255, 255, 0.95);
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
 }
 
-#start_hero__h2{
+#start_hero__h2 {
     margin-top: 1rem;
     color: rgba(255, 255, 255, 0.65);
     font-family: 'Mukta', sans-serif;
 }
+
 /*---------------search----------*/
 
-#start_search{
+#start_search {
     /*background-color: red;*/
     margin-top: 5rem;
     margin-left: 1.5rem;
@@ -60,22 +61,23 @@
     cursor: pointer;
 
 }
-#start_search_svg{
+
+#start_search_svg {
     fill: rgba(255, 255, 255, 0.85);
     width: 2rem;
     height: 2rem;
 }
 
-#start_search_container:hover #start_search_svg{
+#start_search_container:hover #start_search_svg {
     fill: #3bfaf8;
 
 }
 
-#start_form{
+#start_form {
     margin-left: 1rem;
 }
 
-#start_form_input{
+#start_form_input {
     background-color: transparent;
     outline: none;
     height: 2rem;
@@ -88,18 +90,16 @@
 }
 
 
-
-
 @keyframes border_appear {
-    0%{
+    0% {
         width: 1rem;
     }
-    100%{
+    100% {
         width: 15rem;
     }
 }
 
-#start_form_submit{
+#start_form_submit {
     width: 4rem;
     height: 2rem;
     color: teal;
@@ -110,34 +110,34 @@
 }
 
 @keyframes appear {
-    0%{
+    0% {
         opacity: 0;
     }
-    80%{
+    80% {
         opacity: 0;
     }
-    100%{
+    100% {
         opacity: 100%;
     }
 
 }
 
-#start_about{
+#start_about {
     margin-left: auto;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
 /*--------------------Mobile------------------------*/
-@media screen and (max-width: 670px){
+@media screen and (max-width: 670px) {
 
-    #start_sidetext{
+    #start_sidetext {
         position: absolute;
         color: rgba(255, 255, 255, 0.25);
         font-family: 'Oswald', sans-serif;
-        top:10rem;
+        top: 10rem;
         width: 14rem;
         left: -5rem;
         font-size: 1.2rem;
@@ -146,8 +146,7 @@
 
 
     /*--------Nav----------*/
-
-    #start_nav{
+    #start_nav {
         height: 3rem;
         /*background-color: red;*/
         z-index: 5;
@@ -159,49 +158,50 @@
         padding: 1rem;
     }
 
-    #start_hero{
-        margin-left:4rem;
+    #start_hero {
+        margin-left: 4rem;
         margin-top: 3rem;
         width: 50vw;
         /*background-color: red;*/
     }
 
-    #start_hero__h1{
+    #start_hero__h1 {
         color: rgba(255, 255, 255, 0.95);
         font-size: 1.2rem;
         font-family: 'Oswald', sans-serif;
     }
 
-    #start_hero__h2{
+    #start_hero__h2 {
         margin-top: 1rem;
         color: rgba(255, 255, 255, 0.65);
         font-family: 'Mukta', sans-serif;
     }
-    /*---------------search----------*/
 
-    #start_search{
+    /*---------------search----------*/
+    #start_search {
         /*background-color: red;*/
         margin-top: 5rem;
         margin-left: 1rem;
         display: flex;
 
     }
-    #start_search_svg{
+
+    #start_search_svg {
         fill: rgba(255, 255, 255, 0.85);
         width: 1.5rem;
         height: 1.5rem;
     }
 
-    #start_search_container:hover #start_search_svg{
+    #start_search_container:hover #start_search_svg {
         fill: #3bfaf8;
 
     }
 
-    #start_form{
+    #start_form {
         margin-left: 1rem;
     }
 
-    #start_form_input{
+    #start_form_input {
         background-color: transparent;
         outline: none;
         height: 1.5rem;
@@ -214,18 +214,16 @@
     }
 
 
-
-
     @keyframes border_appear {
-        0%{
+        0% {
             width: 1rem;
         }
-        100%{
+        100% {
             width: 10rem;
         }
     }
 
-    #start_form_submit{
+    #start_form_submit {
         width: 4rem;
         height: 1.5rem;
         color: teal;
@@ -236,19 +234,19 @@
     }
 
     @keyframes appear {
-        0%{
+        0% {
             opacity: 0;
         }
-        80%{
+        80% {
             opacity: 0;
         }
-        100%{
+        100% {
             opacity: 100%;
         }
 
     }
 
-    .hide{
+    .hide {
         display: none;
     }
 
