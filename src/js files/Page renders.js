@@ -64,9 +64,10 @@ async function previous_data_updater(loc) {
 
     let day_3 = await previousdata(loc, getdate(3));
     weatherPage.day_three.innerHTML = await `<p>${day_3}° C </p>`;
-
+    console.log(weatherPage.day_four)
     let day_4 = await previousdata(loc, getdate(4));
     weatherPage.day_four.innerHTML = await `<p>${day_4}° C </p>`;
+
 
     let day_5 = await previousdata(loc, getdate(5));
     weatherPage.day_five.innerHTML = await `<p>${day_5}° C </p>`;
