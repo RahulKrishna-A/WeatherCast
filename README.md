@@ -33,8 +33,8 @@
 ## credits 
 
 - API                  : https://www.weatherapi.com/
-- Design Inspiration   : https://icons8.com/icons
-- Icons                : https://dribbble.com/
+- Design Inspiration   : https://dribbble.com/
+- Icons                : https://icons8.com/icons
 - Fonts                : https://fonts.google.com/
 
 ## Getting started
