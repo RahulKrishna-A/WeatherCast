@@ -41,7 +41,7 @@
 
 In order to setup and work on this project on your own, you will need to:
 
-1. Clone this project:
+1. Clone this project: 
 `git clone git@github.com:RahulKrishna-A/WeatherCast.git`
 
 2. Once you have cloned this project, you can install the required dependencies by using:
